@@ -27,3 +27,5 @@ This project was built from scratch using:
 2.  Select the AI difficulty level.
 3.  Click the "New Game" button to start.
 4.  Click on your piece to select it, then click on the destination square to move.
+
+[Demo](https://simple-chess-game-three.vercel.app/)

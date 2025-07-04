@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-board"></div>
+    <div id="controls">
+        <h1>Chess</h1>
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button id="new-game">New Game</button>
+        <div id="status">Your turn</div>
+    </div>
+    <div id="modal">
+        <div id="modal-content">
+            <p id="modal-text"></p>
+            <div id="modal-buttons">
+                <button id="modal-ok">OK</button>
+                <button id="modal-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script src="chess.js"></script>
+</body>
+</html>
